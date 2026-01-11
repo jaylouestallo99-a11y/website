@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feelin Fresh Product</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #daf1ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 320px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .logo {
+      background-color: #61ab4a;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 6px 12px;
+      display: inline-block;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    .title-main {
+      font-weight: 700;
+      font-size: 24px;
+      margin: 10px 0 0 0;
+    }
+    .title-sub {
+      font-weight: 700;
+      font-size: 20px;
+      color: #61ab4a;
+      margin: 4px 0 4px 0;
+    }
+    .highlight {
+      background-color: #61ab4a;
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+    .description {
+      font-size: 12px;
+      letter-spacing: 1px;
+      margin: 20px 0 10px 0;
+    }
+    .info-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 15px 0;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+    }
+    .info-section div {
+      flex: 1;
+    }
+    .seal {
+      border: 1px solid #61ab4a;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      margin: auto;
+      padding: 8px;
+      font-size: 10px;
+      color: #61ab4a;
+      font-weight: 600;
+      line-height: 1.3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .seal .leaf {
+      width: 24px;
+      height: 24px;
+      background-color: #61ab4a;
+      clip-path: polygon(50% 0%, 70% 35%, 50% 100%, 30% 35%);
+      margin-bottom: 4px;
+    }
+    .weight {
+      font-size: 12px;
+      color: #333;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">AVON</div>
+    <div class="title-main">FEELIN FRESH</div>
+    <div class="title-sub">CRYSTAL TAWAS</div>
+    <div class="highlight">NATURAL BRIGHTENING</div>
+    <div class="description">ANTIPERSPIRANT DEODORANT CREAM</div>
+    <div class="info-section">
+      <div><span style="font-size:20px;">48H</span><br/>DRY PORE</div>
+      <div>
+        <div class="seal">
+          100% NATURAL<br/>
+          <div class="leaf"></div>
+          TAWAS
+        </div>
+      </div>
+    </div>
+    <div class="weight">55g</div>
+  </div>
+</body>
+</html>
